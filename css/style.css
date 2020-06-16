@@ -1,0 +1,53 @@
+
+.container-fluid{
+    box-shadow: 1px 1px 4px rgb(206, 206, 206);
+    
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 80px;
+}
+ul{
+    width:800px;
+}
+ul input{
+ margin-top: 5px;
+ padding-left: 5px;
+ border:1px solid ;
+ border-color:orange;
+ color: gray;
+ outline: none;
+ 
+}
+ul li a{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+ul li a:hover{
+   color: orange; 
+   transition: 1s;
+}
+
+.card img{
+    /* width: 253px; */
+    height: 208px;
+}
+.card{
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+}
+.card-body .btn{
+    background-color: gray;
+    color: white;
+}
+.card-body .btn:hover{
+    background-color: orange;
+    color:black;
+    transition: 1s;
+}
+body{
+    overflow-x: hidden;
+}
